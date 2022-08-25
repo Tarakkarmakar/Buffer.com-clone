@@ -59,17 +59,3 @@ color: white;}
 #getstart>button>p{font-size: 16px;}
 
 /* top-----section***************Top___section_________-------$$$$$$$$$---------Topsection */
-
-
-#top{height: 562px;
-width:90%;
-margin: auto;
-background-color:peru;
-display: flex;
-padding: 10px;}
-
-
-#top>div{height: 100%;
-width: 45%;border:1px solid #2c4bff;}
-
-#topright>img{}
