@@ -66,6 +66,8 @@ cursor: pointer;
 color: white;}
 #getstart>button>p{font-size: 16px;}
 
+/* ----------------------------Navgiation  End--------------------------------------- */
+
 /* top-----section***************Top___section_________-------$$$$$$$$$---------Topsection */
 
 #top{height: 562px;
@@ -137,6 +139,8 @@ margin-left: 5px;}
 
 
 
+/* ---------------Navigation----End----------- */ */
+
 
 /* logo----section-- start--logo__section--------start */
 #logo-container{height: 115px;
@@ -171,4 +175,199 @@ margin-bottom: 30px;
 #analyze_img>img{display: block;
 margin-top: 20px;}
     
+
+/* ------------------------customer section end---------------------------- */
+/* 
+<!-- 
+analyze-----plan-----respond-----celebrate-------Part-------&&&---analyze-----plan-----respond-----celebrate-------Part -->
+ */
+
+ /* analyze */
+
+ #analyze_box{width: 980px;
+height: 406px;
+margin: auto;
+margin-bottom: 70px;
+margin-top: 110px;
+display: flex;
+}
+#analyze_box>div{height: 100%;
+width: 474px;
+border:1px #2c4bff;}
+
+#analyze_box>div>img{height: 100%;
+width: 100%;}
+.sub_box1{padding: 74px 0px;
+margin-left: 16px;
+text-align: start;
+display: flex;}
+.sub_box2{margin-left: 16px;}
+.sub_box1>div>h2{
+    display:block;
+    font-size: 30px;
+line-height: 44px;
+text-align: left;
+letter-spacing: 0.1;
+font-weight:bolder;
+margin-bottom: 30px;
+}
+.sub_box1>div>h3{
+    color: blue;
+    }
+  #getstart_3{height: 100%;
+    width: 179px;
+    background-color: #2c4bff;
+    font-size: 18px;
+display: flex;
+align-items: center;
+border: none;
+cursor: pointer;
+}
+
+#btn_con{display: flex;
+height: 48px;
+margin-top: 30px;
+}
+#getstart_3>p{font-size: 16px;
+margin: auto;
+color: white;}
+#getstart_3{border-radius: 7px;
+margin-right: 20px;}
+   
+#learn_more{height: 100%;
+width:144px;
+font-size: 18px;
+display: flex;
+align-items: center;
+border: none;
+cursor: pointer;
+border: 1px solid blueviolet;
+border-radius: 7px;
+
+}
+#learn_more>p{margin: auto;
+    letter-spacing: 0.3px;
+    color: blue;
+   }
+
+/* --------------------------------------------------------------------- */
+
+   /* plan----section----plan */
+
+   
+ #plan_box{width: 980px;
+    height: 365px;
+    margin: auto;
+    margin-bottom: 140px;
+    margin-top: 110px;
+    display: flex;
+    }
+
+   #plan_box>div{height: 100%;
+        width: 474px;
+        border:1px #2c4bff;}
+        
+#plan_box>div>img{height: 100%;
+    width: 100%;}
+
+    .plan_box1{padding: 74px 0px;
+    margin-left: 16px;
+    text-align: start;
+    display: flex;}
+    .plan_box2{margin-right: 16px;}
+
+    .plan_box1>div>h2{
+        display:block;
+        font-size: 30px;
+    line-height: 44px;
+    text-align: left;
+    letter-spacing: 0.1;
+    font-weight:700;
+    margin-bottom: 30px;
+    }
+    .plan_box1>div>h3{
+        color: blue;
+        }
+/* ----------------------------------------------------- */
+
+        /* _____-------$$       Engage --section----engage---section */
+
+        #engage_box{width: 980px;
+            height: 339px;
+            margin: auto;
+            margin-bottom: 70px;
+            margin-top: 140px;
+            display: flex;
+            }
+            #engage_box>div{height: 100%;
+            width: 474px;
+            border:1px #2c4bff;}
+            
+            #engage_box>div>img{height: 100%;
+            width: 100%;}
+            .sub_box1{padding: 74px 0px;
+            margin-left: 16px;
+            text-align: start;
+            display: flex;}
+            .en_box2{margin-left: 16px;}
+            .en_box1>div>h2{
+                display:block;
+                font-size: 30px;
+            line-height: 44px;
+            text-align: left;
+            letter-spacing: 0.1;
+            font-weight:bolder;
+            margin-bottom: 30px;
+            }
+            .en_box1>div>h3{
+                color: blue;
+                }
+   /* -----------------engage---end--------------------- */
+
+
+
+
+   /* --------$$$$-------celebrate----section---start----- */
+
+#celeb_box1{width: 580px;
+margin:auto;}
+
+   .celeb{text-align: center;
+color: blue;}
+
+.celeb_tx{
+    font-size: 30px;
+line-height: 44px;
+text-align:center;
+letter-spacing: 0.1;
+font-weight:bolder;}
+
+
+/* -----blue-------bar----- */
+
+#bar{padding:0px 20px;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+height:72px;
+}
+#bar>div>h2{font-size: 43px;
+color: blue;
+font-weight: 780;
+}
+#bar>div{text-align: center;
+letter-spacing: 0.0;
+height: 100%;}
+/* --------------------------------- */
+
+
+/* ------help---center--------- */
+
+
+#footer{height: 268px;
+width: 100%%;}
+#footer-left{height: 100%;
+width: 268px;
+border: 1px solid black;
+}
 
