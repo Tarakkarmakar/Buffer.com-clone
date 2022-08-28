@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create-New_acount</title>
+
+    <link rel="stylesheet" href="createAcount.css"/>
+
+</head>
+<body>
+
+    <div id="uper"><img src="https://static.buffer.com/login/public/img/buffer-logo.svg"></div>
+
+
+  <div id="con">
+    <div id="create">
+        <h1>Let's get your account set up</h1>
+        <form>
+          <label for="email">Email</label>
+          <input id="email" placeholder="" type="email"/>
+
+
+          <label for="email">Create a password</label>
+          <input id="pass" placeholder="" type="password" />
+          
+        
+          <input id="sub" type="submit" value="Sign Up" />
+
+          <div>
+            <p>I agree to <span id="term">Buffer's Terms of Service</span> </p>
+            <p id="redi">Already have an account?</p>
+          </div>
+        </form>
+      </div>
+    </body>
+
+
+    <script>
+      let Lsdta=JSON.parse(localStorage.getItem("member-data"))||[]
+  
+      let form=document.querySelector("form");
+  
+      form.addEventListener("submit",function(el){
+        el.preventDefault();
+      let obj={email:form.email.value,
+    password:form.pass.value}
+
+
+    if(obj.password.length<7){
+
+        alert("Password must be 7 digit at least")
+    }
+    else{
+     
+    if(obj.email==""||obj.password==""){
+      alert("Please Fill all feilds")
+    }
+    else{
+      Lsdta.push(obj)
+      localStorage.setItem("member-data",JSON.stringify(Lsdta))
+      window.location.href="login.html"
+    }
+}
+      })
+
+      document.querySelector("#redi").addEventListener("click",function(el){
+
+        window.location.href="login.html"
+      })
+  
+</script>
+
+
+
+   
+</html>
