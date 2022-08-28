@@ -1,0 +1,709 @@
+body {
+  font-family: sans-serif;
+  letter-spacing: 0.6px;
+  padding: 0px;
+  margin: 0px;
+}
+#container {
+  height: 118px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  position: fixed;
+  margin: auto;
+}
+#box {
+  height: 48px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+}
+
+#first {
+  height: 100%;
+  margin-right: 142px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.icon {
+  height: 52%;
+  width: 22px;
+  display: block;
+  margin-right: 6px;
+}
+
+.new {
+  height: 30%;
+  width: 20%;
+  display: block;
+  margin-left: 5px;
+}
+
+#second {
+  height: 100%;
+  width: 600px;
+  display: flex;
+}
+#second > div {
+  margin: auto;
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 70px;
+}
+
+#second > div > p:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#third {
+  display: flex;
+  align-items: center;
+  margin-left: 78px;
+}
+#login {
+  color: blue;
+  margin-right: 13px;
+  font-size: 19px;
+  cursor: pointer;
+}
+#getstart > button {
+  height: 48px;
+  width: 160px;
+  background-color: #2c4bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  color: white;
+}
+#getstart > button > p {
+  font-size: 16px;
+}
+
+#getstart > button:hover {
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+  background-color: rgb(31, 53, 179);
+  
+}
+
+/* ----------------------------Navgiation  End--------------------------------------- */
+
+
+/* -----------------body--------starts--------here------- */
+
+/* top-----section***************Top___section_________-------$$$$$$$$$---------Topsection===start */
+
+
+#top {
+  height: 562px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+}
+#topleft {
+  width: 50%;
+}
+
+#top > div {
+  height: 100%;
+}
+
+#topright > img {
+  height: 100%;
+  width: 100%;
+}
+
+#topright {
+  display: block;
+  margin-left: 40px;
+  width: 47%;
+}
+
+.dis1 {
+  margin-top: 32%;
+  width: 100%;
+  font-size: 130%;
+}
+.para1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mybuttons {
+  height: 48px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+.mybuttons > button {
+  width: 185px;
+  border-radius: 7px;
+}
+#getstart2 {
+  background-color: #2c4bff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+#getstart2:hover {
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+  background-color: rgb(31, 53, 179);
+}
+
+#getstart2 > p {
+  margin: auto;
+  color: white;
+}
+
+#watchvideo {
+  display: flex;
+  height: 100%;
+  width: 185px;
+  margin-left: 17px;
+  border: 1px solid #2c4bff;
+  background-color: #fefefe;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#watchvideo:hover {
+  background-color: rgb(214, 219, 252);
+}
+#watchvideo > img {
+  height: 45%;
+  width: 12%;
+  display: flex;
+  align-self: center;
+}
+#watchvideo > p {
+  display: block;
+  color: #2c4bff;
+  margin-left: 5px;
+}
+
+/* ---------------Navigation----End----------------------------------------------------------- */
+
+
+/* logo----section-- start--logo__section--------start */
+#logo-container {
+  height: 115px;
+  width: 100%;
+
+  display: flex;
+}
+#logo-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 70px;
+  padding: 0px 20px 20px;
+}
+#logo-container > div {
+  display: flex;
+}
+#logo-container > div > img {
+  height: 40%;
+  width: 70%;
+  display: block;
+  margin: auto;
+  opacity: 0.5;
+}
+
+/* ////customer----section----part */
+#customer {
+  width: 46%;
+  text-align: center;
+  margin: auto;
+  margin-top: 120px;
+  display: block;
+}
+#customer > h1 {
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 30px;
+}
+#analyze_img > img {
+  display: block;
+  margin-top: 20px;
+}
+
+/* ------------------------customer section end---------------------------- */
+/* 
+<!-- 
+analyze-----plan-----respond-----celebrate-------Part-------&&&---analyze-----plan-----respond-----celebrate-------Part -->
+ */
+
+/* analyze */
+
+#analyze_box {
+  width: 980px;
+  height: 406px;
+  margin: auto;
+  margin-bottom: 70px;
+  margin-top: 110px;
+  display: flex;
+}
+#analyze_box > div {
+  height: 100%;
+  width: 474px;
+  border: 1px #2c4bff;
+}
+
+#analyze_box > div > img {
+  height: 100%;
+  width: 100%;
+}
+.sub_box1 {
+  padding: 74px 0px;
+  margin-left: 16px;
+  text-align: start;
+  display: flex;
+}
+.sub_box2 {
+  margin-left: 16px;
+}
+.sub_box1 > div > h2 {
+  display: block;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: left;
+  letter-spacing: 0.1;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.sub_box1 > div > h3 {
+  color: blue;
+}
+#getstart_3 {
+  height: 100%;
+  width: 179px;
+  background-color: #2c4bff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+#getstart_3:hover {
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+  background-color: rgb(31, 53, 179);
+}
+
+#btn_con {
+  display: flex;
+  height: 48px;
+  margin-top: 30px;
+}
+#getstart_3 > p {
+  font-size: 16px;
+  margin: auto;
+  color: white;
+}
+#getstart_3 {
+  border-radius: 7px;
+  margin-right: 20px;
+}
+
+#learn_more {
+  height: 100%;
+  width: 144px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  border: 1px solid blueviolet;
+  border-radius: 7px;
+}
+#learn_more:hover {
+  background-color: rgb(214, 219, 252);
+}
+#learn_more > p {
+  margin: auto;
+  letter-spacing: 0.3px;
+  color: blue;
+}
+
+/* --------------------------------------------------------------------- */
+
+/* plan----section----plan */
+
+#plan_box {
+  width: 980px;
+  height: 365px;
+  margin: auto;
+  margin-bottom: 140px;
+  margin-top: 110px;
+  display: flex;
+}
+
+#plan_box > div {
+  height: 100%;
+  width: 474px;
+  border: 1px #2c4bff;
+}
+
+#plan_box > div > img {
+  height: 100%;
+  width: 100%;
+}
+
+.plan_box1 {
+  padding: 74px 0px;
+  margin-left: 16px;
+  text-align: start;
+  display: flex;
+}
+.plan_box2 {
+  margin-right: 16px;
+}
+
+.plan_box1 > div > h2 {
+  display: block;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: left;
+  letter-spacing: 0.1;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.plan_box1 > div > h3 {
+  color: blue;
+}
+/* ----------------------------------------------------- */
+
+/* _____-------$$ ------ Engage --section----engage---section */
+
+#engage_box {
+  width: 980px;
+  height: 339px;
+  margin: auto;
+  margin-bottom: 70px;
+  margin-top: 140px;
+  display: flex;
+}
+#engage_box > div {
+  height: 100%;
+  width: 474px;
+  border: 1px #2c4bff;
+}
+
+#engage_box > div > img {
+  height: 100%;
+  width: 100%;
+}
+.sub_box1 {
+  padding: 74px 0px;
+  margin-left: 16px;
+  text-align: start;
+  display: flex;
+}
+.en_box2 {
+  margin-left: 16px;
+}
+.en_box1 > div > h2 {
+  display: block;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: left;
+  letter-spacing: 0.1;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.en_box1 > div > h3 {
+  color: blue;
+}
+/* -----------------engage---end--------------------- */
+
+/* --------$$$$-------celebrate----section---start----- */
+
+#celeb_box1 {
+  width: 580px;
+  margin: auto;
+}
+
+.celeb {
+  text-align: center;
+  color: blue;
+}
+
+.celeb_tx {
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.1;
+  font-weight: bolder;
+}
+
+/* -----blue-------bar----- */
+
+#bar {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 72px;
+}
+#bar > div > h2 {
+  font-size: 43px;
+  color: blue;
+  font-weight: 780;
+}
+#bar > div {
+  text-align: center;
+  letter-spacing: 0;
+  height: 100%;
+}
+/* --------------------------------- */
+
+/* --------help-----section */
+
+#help_box {
+  width: 90%;
+  height: 365px;
+  margin: auto;
+  margin-bottom: 140px;
+  margin-top: 160px;
+  display: flex;
+}
+
+#help_box > div {
+  height: 100%;
+  width: 474px;
+  border: 1px #2c4bff;
+}
+
+#help_box > div > img {
+  height: 80%;
+  width: 100%;
+  display: block;
+  margin-right: 40px;
+}
+
+.help_box1 {
+  padding: 74px 0px;
+  margin-left: 100px;
+  text-align: start;
+  display: flex;
+}
+.help_box2 {
+  margin-right: 16px;
+}
+
+.help_box1 > div > h2 {
+  display: block;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: left;
+  letter-spacing: 0.1;
+  font-weight: 780;
+  margin-bottom: 30px;
+}
+.help_box1 > div > h3 {
+  color: blue;
+}
+
+#visit > p {
+  margin: auto;
+  letter-spacing: 0.3px;
+  color: blue;
+}
+#visit {
+  height: 100%;
+  width: 215px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  border: 1px solid blueviolet;
+  border-radius: 7px;
+}
+#visit:hover {
+  background-color: rgb(214, 219, 252);
+}
+
+/* ------help---center-----end---- */
+
+/* _______-------Blue___-------section */
+
+#blue {
+  height: 456px;
+  width: 100%;
+  display: flex;
+  background-color: #2c4bff;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+#blue > div {
+  height: 132px;
+  width: 600px;
+  padding: 100px 0px;
+  text-align: center;
+}
+#blue > div > button {
+  height: 74px;
+  width: 204px;
+  background-color: #e97284;
+  color: #fefafd;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+#blue > div > button:hover {
+  background-color: rgb(229, 87, 108);
+}
+
+#blue > div > h1 {
+  color: white;
+}
+
+/* -----blue---section---end */
+
+/* -----------------------------------------page End Here------------------------------------------------------------------------- */
+
+/* ________$$$$_______---Footer---start--------- */
+
+#footer {
+  height: 278px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+#footer-left {
+  height: 100%;
+  width: 268px;
+
+  border: 1px solid black;
+}
+
+/* ----left--- */
+
+#left-side {
+  height: 100%;
+  padding: 0px;
+}
+#left-side > h2 {
+  text-align: start;
+  font-size: 40px;
+  margin-bottom: 70px;
+  line-height: 30px;
+}
+
+#btn-box1 {
+  height: 34px;
+  width: 304px;
+  display: flex;
+}
+
+#btn-box1 > button {
+  height: 34px;
+  width: 133px;
+  display: flex;
+  background-color: #fefefe;
+  border: 1px solid blue;
+  justify-content: center;
+  border-radius: 11px;
+  font-size: 12px;
+  cursor: pointer;
+}
+#btn-box1 > button:hover {
+  background-color: rgb(214, 219, 252);
+}
+.app {
+  margin-right: 9px;
+}
+#btn-box1 > button > p {
+  align-self: center;
+}
+
+#btn-box1 > button > img {
+  height: 60%;
+  color: blue;
+  width: 16%;
+  align-self: center;
+  display: flex;
+  margin-right: 5px;
+}
+
+#small-icon {
+  height: 20px;
+  width: 292px;
+  display: flex;
+  position: static;
+}
+#small-icon > div {
+  height: 100%;
+  width: 14%;
+  background-color: white;
+}
+#small-icon > div > img {
+  height: 100%;
+  cursor: pointer;
+  width: 48%;
+}
+#left-side > h5 {
+  line-height: 25.1px;
+  letter-spacing: 0.01px;
+  font-weight: bold;
+  display: block;
+}
+
+#last-para {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* _____-----right */
+
+#right-side {
+  height: 100%;
+  width: 749px;
+  display: flex;
+  margin-left: 15%;
+}
+
+#right-side > div {
+  width: 180px;
+
+  margin-top: 0%;
+}
+
+#right-side > div {
+  margin-right: 15px;
+}
+
+#right-side > div > h2 {
+  font-size: 21px;
+}
+#right-side > div > p {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#right-side > div > p:hover {
+  color: blue;
+}
