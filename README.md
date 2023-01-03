@@ -1,5 +1,10 @@
 # Buffer.com | clone
 
+Buffer is a software application for the web and mobile, designed to manage accounts in social networks, by providing the means for a user to schedule posts to Twitter, Facebook, Instagram, Instagram Stories, as well as analyze their results and engage with their community
+
+
+
+
 I have cloned Buffer.com from scratch
 
 I have implemented  the all things That i have learned in unit 2
